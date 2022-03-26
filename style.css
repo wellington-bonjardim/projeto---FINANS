@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box-content {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+    margin: 5px 15px;
+}
+
+/*MEDIUM DEVICES (TABLETS, 768px E SUPERIOR)*/
+@media (max-width: 768px) {
+    .box-content .text-medium {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    footer #social #arrow {
+        display: none;
+    }
+}
